@@ -1,12 +1,17 @@
 [tool.poetry]
 name = "repl_python3_CoderIntuition-bot"
 version = "0.1.0"
-description = ""
+description = "CoderIntuition Internship Postings Bot"
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 discord = "^1.0.1"
+python-dotenv = "^0.17.1"
+youtube-dl = "^2021.4.26"
+pytz = "^2021.1"
+replit = "^3.0.0"
+flask="^1.1.2"
 
 [tool.poetry.dev-dependencies]
 
